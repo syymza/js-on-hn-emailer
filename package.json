@@ -1,0 +1,18 @@
+{
+  "name": "js-on-hn-emailer",
+  "version": "1.0.0",
+  "description": "Send an email for any new JS posts published on Hacker News",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniele Zanni",
+  "license": "MIT",
+  "dependencies": {
+    "emailjs": "^0.3.16",
+    "firebase": "^2.2.4"
+  },
+  "devDependencies": {
+    "jscs": "^1.13.1"
+  }
+}
