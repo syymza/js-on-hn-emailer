@@ -49,7 +49,10 @@ function sendEmail(title, url) {
         text: `A New Post About Javascript has been posted to Hacker News: ${title}\nRead it here: ${url}`,
         attachment: [{
             data: `<html>
-                    	<div>A New Post About Javascript has been posted to Hacker News: <strong>${title}</strong></div>
+                        <div>
+                            <span>A New Post About Javascript has been posted to Hacker News:<span>
+                            <strong>${title}</strong>
+                        </div>
                         <div>Read it here: ${url}</div>
                     </html>`,
             alternative:true
