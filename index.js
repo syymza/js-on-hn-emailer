@@ -11,7 +11,6 @@ let server = email.server.connect({
     ssl:      true //This option also depends on your SMTP server
 });
 
-
 let newPostsRef = new Firebase("https://hacker-news.firebaseio.com/v0/newstories/0");
 
 newPostsRef.on("value", dealWithSinglePost);
@@ -29,7 +28,20 @@ function dealWithSinglePost (snapshot) {
         //If we have received some valid data, we unsubcribe from the post updates
         postRef.off();
 
-        let regEx = /(js|javascript)/i;
+        //An array of terms I want to subscribe to:
+        let terms = [
+            'js',
+            'javascript',
+            'react',
+            'angular',
+            'ember',
+            'backbone',
+            'jquery'
+        ];
+
+        //Build a RegEx using the terms defined
+        let regEx = new RegExp(terms.join('|'), 'i');
+
         let title = postSnapshot.val().title;
         let url = postSnapshot.val().url;
         let isAboutJs = regEx.test(title);
