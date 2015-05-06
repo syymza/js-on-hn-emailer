@@ -8,6 +8,9 @@
   },
   "author": "Daniele Zanni",
   "license": "MIT",
+  "engines": {
+    "iojs": "2.0.x"
+  },
   "dependencies": {
     "emailjs": "^0.3.16",
     "firebase": "^2.2.4"

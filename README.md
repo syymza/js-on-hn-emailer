@@ -54,9 +54,4 @@ ________
 ##Credits
 This post has been inspired by a similar post on the Twilio blog: [Get Notified When Someone Posts An Article From Your Domain on Hacker News Using Node.js, Firebase and Twilio](https://www.twilio.com/blog/2015/04/get-notified-when-someone-posts-an-article-from-your-domain-on-hacker-news-using-node-js-firebase-and-twilio.html).
 
-_________
-
-##TODO:
-- Get the discussion url.
-- Decide what to do with Ask HN and other posts without post.url
 
