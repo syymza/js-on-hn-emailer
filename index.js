@@ -20,8 +20,8 @@ function dealWithSinglePost (snapshot) {
     postRef.on('value', filterInterestingPosts);
 
     function filterInterestingPosts(postSnapshot) {
-        //Return if there is no actual valid data
-        if(!postSnapshot.val()) {
+        //Return if there is no actual valid data or no url
+        if(!postSnapshot.val() || !postSnapshot.val().url) {
             return;
         }
 
