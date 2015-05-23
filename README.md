@@ -1,4 +1,7 @@
 # js-on-hn-emailer
+
+[![Dependency Status](https://david-dm.org/syymza/js-on-hn-emailer.svg)](https://david-dm.org/syymza/js-on-hn-emailer) [![devDependency Status](https://david-dm.org/syymza/js-on-hn-emailer/dev-status.svg)](https://david-dm.org/syymza/js-on-hn-emailer#info=devDependencies)
+
 Send yourself an email every time a new post about Javascript is shared on Hacker News
 
 ##Description
