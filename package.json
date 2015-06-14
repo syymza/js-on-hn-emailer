@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "emailjs": "^0.3.16",
-    "firebase": "^2.2.4"
+    "firebase": "^2.2.7"
   },
   "devDependencies": {
     "jscs": "^1.13.1"
