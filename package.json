@@ -16,6 +16,6 @@
     "firebase": "^2.2.9"
   },
   "devDependencies": {
-    "jscs": "^2.0.0"
+    "jscs": "^2.1.1"
   }
 }
